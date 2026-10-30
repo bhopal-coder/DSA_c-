@@ -22,6 +22,7 @@ int main()
     }
     while(!s1.empty())
     {
+        
       res+=s1.top();
       s1.pop();
     }
