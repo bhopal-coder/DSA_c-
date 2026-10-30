@@ -23,6 +23,7 @@ int main()
     while(!s1.empty())
     {
       res+=to_string(s1.top())+" ";
+      
       s1.pop();
     }
     cout<<res;
